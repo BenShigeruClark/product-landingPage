@@ -1,5 +1,9 @@
 h2 {
-  font-size: 3rem;
+  font-size: 74px;
   font-family: 'Bungee Shade', cursive;
-  font-family: 'Monoton', cursive;
+  /* font-family: 'Monoton', cursive; */
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif
 }
