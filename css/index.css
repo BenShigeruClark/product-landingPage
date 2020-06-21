@@ -13,7 +13,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #eee;
+  background-color: rgb(222, 255, 215);
 }
 
 #page-wrapper {
@@ -47,4 +47,8 @@ a {
   border-radius: 9px;
   background: transparent;
   cursor: pointer;
+}
+
+.grid {
+  display: flex;
 }
