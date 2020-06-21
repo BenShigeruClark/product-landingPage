@@ -4,6 +4,35 @@
   /* font-family: 'Monoton', cursive; */
 }
 
+/** Global element styling **/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Roboto', sans-serif
+  font-family: 'Roboto', sans-serif;
+  background-color: #eee;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/** Global class stylig **/
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
 }
