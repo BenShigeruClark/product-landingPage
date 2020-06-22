@@ -187,3 +187,66 @@ nav {
   }
 }
 
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+ 
+@media (max-width: 500px) {
+  #features .desc {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  #features {
+    margin-top: 0
+  }
+}
+
+#demo {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#demo > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid rgb(129, 8, 8);
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color: pink;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+
