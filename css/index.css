@@ -234,18 +234,20 @@ nav {
   align-items: center;
   text-align: center;
   width: calc(100% / 3);
-  margin: 10px;
-  border: 1px solid rgb(129, 8, 8);
-  border-radius: 3px;
+  margin: 5px;
+  border: 0;    /*1px solid rgb(129, 8, 8);*/
+  border-radius: 8px;
+  background-color: rgb(247, 215, 220);
 }
 
 .product > .level {
-  background-color: pink;
+  background-color: rgb(240, 162, 175);
   color: black;
   padding: 15px 0;
   width: 100%;
   text-transform: uppercase;
   font-weight: 700;
+  border-radius: 5px;
 }
 
 .product > h2 {
